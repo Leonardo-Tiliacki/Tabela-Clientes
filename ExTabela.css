@@ -1,0 +1,96 @@
+body{
+    background-color: #f4f7f6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: #333;
+}
+
+.style-tabela{
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.01);
+    border-radius: 8px 8px  ;
+    overflow: hidden;
+    margin: 20px auto;
+    
+}
+
+.style-tabela thead tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+}
+
+.style-tabela th,
+.style-tabela td{
+    padding: 15px 20px;
+}
+
+.style-tabela tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.style-tabela tbody tr:nth-of-type(even){
+    background-color: #f9f9f9;
+}
+
+.style-tabela tbody tr:hover{
+    background-color: #f1f1f1;
+    color: #009879;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.style-tabela tfoot{
+    background-color:#f3f1f1;
+}
+
+.texto1{
+    text-align: left;
+}
+
+.stat1{
+    border-radius: 20px;
+    background-color: rgb(0, 255, 157);
+    color: #fff;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 8px;
+    font-weight: bolder;
+       
+}
+.stat2{
+    border-radius: 20px;
+    background-color: rgb(248, 115, 27);
+    color: #fff;
+    overflow: hidden;
+    padding: 8px;
+    font-weight: bolder;
+       
+}
+.stat3{
+     border-radius: 20px;
+    background-color: rgb(0, 255, 157);
+    color: #fff;
+    overflow: hidden;
+    padding: 8px;
+    font-weight: bolder;
+       
+}
+.stat4{
+    border-radius: 20px;
+    background-color: rgb(236, 0, 0);
+    color: #fff;
+    overflow: hidden;
+    padding: 8px;
+    font-weight: bolder;
+       
+}
+.container{
+    display: flex ;
+    justify-content: center;
+}
